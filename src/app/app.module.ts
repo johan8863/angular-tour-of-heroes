@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeoresComponent } from './heores/heores.component';
 import { HeoreDetailComponent } from './heore-detail/heore-detail.component';
 import { MessagesComponent } from './messages/messages.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeoresComponent,
     HeoreDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
